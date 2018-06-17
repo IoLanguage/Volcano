@@ -1,0 +1,15 @@
+{
+  "name":         "Volcano",
+  "version":      "0.1",
+  "description":  "A simplified version of HttpServer.",
+  "author":       "Rich Collins",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       [ "HandlerQueue", "HttpParser", "HttpRequest", "HttpRequestHandler", "HttpResponse", "HttpServer", "StatusCodes", "VolcanoServer" ],
+  "dependencies": {
+    "libs":     [],
+    "headers":  [],
+    "protos":   [],
+    "packages": ["https://github.com/IoLanguage/Socket.git"]
+  }
+}
